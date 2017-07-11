@@ -1,7 +1,5 @@
 import game.GameWindow;
 
-import java.util.*;
-
 /**
  * Created by huynq on 7/4/17.
  */
@@ -17,7 +15,7 @@ public class Program {
         System.out.println(center);
 
         GameWindow gameWindow = new GameWindow();
-        gameWindow.run();
+        gameWindow.loop();
 
 
     }
